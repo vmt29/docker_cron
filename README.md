@@ -2,7 +2,7 @@
 
 - build image: `docker build -t image_name .`
 
-- run container:  `docker run -v $(pwd):/app -d -it image_name`
+- run container:  `docker run -v $(pwd):/app -v /var/run/docker.sock:/var/run/docker.sock -d -it image_name`
 
 - your task is in `task.sh` (don't forget to grant executable permissions)
 
