@@ -24,4 +24,4 @@
 # 
 # m h  dom mon dow   command
 
-30 16 23 12 * /app/task.sh
+10 12 24 12 * /app/task.sh
